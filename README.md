@@ -20,10 +20,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-### Screenshot
-
 ![](./screenshot/desktop.webp)
-![](./screenshot/mobile.webp)
 
 ### Links
 
