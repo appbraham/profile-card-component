@@ -1,0 +1,26 @@
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+html{
+    font-size: 18px;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--dark-cyan);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 45vh, left 50vw top 45vh;
+}
